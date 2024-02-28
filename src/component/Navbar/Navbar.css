@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #FFF27f;
+}
+
+.title {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.edit {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 65vw;
+}
+
+.login {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.signup {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}

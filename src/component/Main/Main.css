@@ -1,0 +1,21 @@
+/* Main */
+.Main {
+    /* ToDo에 오신 성실한 여러분을 환영합니다! */
+    position: absolute;
+    width: 884px;
+    height: 61px;
+    left: 198px;
+    top: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
