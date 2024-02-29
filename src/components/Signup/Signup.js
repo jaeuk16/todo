@@ -26,7 +26,7 @@ const Signup = () => {
     }
     return (
         <div>
-            <div className="title"> 회원가입 </div>
+            <div className="signuptitle"> 회원가입 </div>
             <input
                 type="name"
                 placeholder="이름"
