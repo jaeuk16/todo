@@ -1,0 +1,92 @@
+ /* box */
+ .box {
+     position: absolute;
+     width: 400px;
+     height: 500px;
+     left: 440px;
+     top: 166px;
+     border: 1px solid black;
+     border-radius: 20px;
+     margin-left: 5vw;
+ }
+
+ /* LOGIN */
+ .ltitle {
+     /* position: absolute; */
+     margin-left: 9.5vw;
+     margin-top: 50px;
+     width: 250px;
+     height: 80px;
+     left: 515px;
+     top: 213px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 50px;
+     line-height: 61px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+
+     color: #000000;
+ }
+
+ .lId {
+     margin-top: 15vh;
+     margin-left: 25px;
+     /* ID */
+
+     box-sizing: border-box;
+
+     /* position: absolute; */
+     width: 350px;
+     height: 70px;
+     left: 465px;
+     top: 402px;
+
+     background: #FFFFFF;
+     border: 1px solid #000000;
+     border-radius: 20px;
+
+     font-size: 20px;
+ }
+
+ .lPw {
+     /* PW */
+     margin-top: 20px;
+     margin-left: 25px;
+     box-sizing: border-box;
+
+     /* position: absolute; */
+     width: 350px;
+     height: 70px;
+     left: 465px;
+     top: 517px;
+
+     background: #FFFFFF;
+     border: 1px solid #000000;
+     border-radius: 20px;
+
+     font-size: 20px;
+ }
+
+ /* Rectangle 2 */
+ .okBtn {
+     box-sizing: border-box;
+
+     /* position: absolute; */
+     width: 70px;
+     height: 30px;
+     left: 595px;
+     top: 621px;
+
+     background: #FFF27F;
+     border: 0.5px solid #000000;
+     border-radius: 5px;
+
+     font-size: 20px;
+     font-weight: 300;
+     margin-top: 20px;
+     margin-left: 11vw;
+ }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import './Login.css';
-                    
+
 
 
 const Login = () => {
@@ -21,7 +21,7 @@ const Login = () => {
             console.log(response);
             if (response.status === 200) {
                 navigate("/")
-                // status가 200이라면 로그인 성공, "/Main"으로 보낸다. path맞춰서
+                // status가 200이라면 로그인 성공, "/Main"으로 보낸다. path 맞춰서
             }
         } catch (error) {
             console.log(error);
@@ -29,21 +29,24 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div className = "box">
             <form >
-                <div className="title"> 로그인 </div>
+                <div className="ltitle"> Login </div>
                 <input
+                    className="lId"
                     type="id"
                     onChange={(e) => SetId(e.target.value)}
                     // e를 보낸다. SetId에 변화된 값을 넣는다.
                     placeholder="아이디"
                 />
                 <input
+                    className="lPw"
                     type="password"
                     onChange={(e) => SetPassWord(e.target.value)}
                     placeholder="비밀번호"
                 />
-                <button 
+                <button
+                    className="okBtn"
                     onClick={ButtonClick}
                 >
                     확인 </button>
